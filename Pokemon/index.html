@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dicionário do Pokémon</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Dicionário do Pokémon</h1>
+      <input type="text" id="pokemonInput" placeholder="Nome do Pokémon..." />
+      <button onclick="searchPokemon()">Buscar</button>
+      <div id="pokemonInfo" class="hidden">
+        <h2 id="pokemonName"></h2>
+        <img id="pokemonImage" alt="Imagem do Pokémon" />
+        <p>
+          <strong>Experiência base:</strong> <span id="baseExperience"></span>
+        </p>
+        <p><strong>Lista de movimentos:</strong> <span id="moves"></span></p>
+        <p><strong>Peso:</strong> <span id="weight"></span></p>
+        <p><strong>Altura:</strong> <span id="height"></span></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
