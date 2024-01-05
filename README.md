@@ -22,3 +22,6 @@ Siga estas instruções para executar o projeto localmente no seu sistema operac
 1. Abra o Terminal e navegue até o diretório do projeto (`Pokemon`).
    ```bash
    cd ~/Pokemon
+
+   xdg-open index.html   # Isso abrirá no navegador padrão
+
